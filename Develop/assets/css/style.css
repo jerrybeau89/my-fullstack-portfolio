@@ -24,7 +24,6 @@ header {
   font-family: cursive;
 }
 main {
-  width: 95%;
   margin: 10px;
 }
 
@@ -33,8 +32,6 @@ footer{
   padding: 1px;
   background-color:rgb(12, 120, 235);
   text-align:center;
-  position: absolute;
-  bottom: 0px;
   width: 100%;
 }
 
@@ -57,7 +54,6 @@ footer{
 .navbar #myLinks {
   display: none;
   text-align: right;
-  
 }
 
 /* Style navigation menu links */
@@ -94,25 +90,59 @@ footer{
   display: flex;
   flex-wrap:wrap;
   flex-direction: row;
-  
+  background-color: aqua;
+  padding: 5px;
+  margin: 5px;
 }
 .card-ab-box, .card-wk-box, .card-ct-box {
   flex: 33%;
+  border-right: 3px solid black;
 }
 
 .card-ab-content, .card-wk-content, .card-ct-content {
  flex: 66%;
 }
+
 .card-title {
-  border-right: 5px solid black;
   text-align: right;
   padding-right: 1vw;
-  max-height: 33%;
 }
 
-.card-body {
+.card-ab-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   text-align: left;
   padding-left: 1vw;
-  max-height: 33%;
 }
 
+.card-wk-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 1vw;
+}
+
+.card-wk-info div h3 p {
+
+}
+
+.card-ct-info{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 1vw;
+}
+
+.card-ct-info div {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  justify-content: center;
+}
+
+#P1-img, #P2-img, #P3-img, #P4-img, #P5-img {
+  padding: 5px;
+  margin: 5px;
+}
