@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 15px;
+  line-height: 1;
+  color: var(--gin);
+  background-color: var(--outer-space);
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+header {
+  background-color:rgb(12, 120, 235);
+  text-align:center;
+  padding: 1px;
+  margin: 0, auto;
+  font-family: cursive;
+}
+main {
+  width: 95%;
+  margin: 10px;
+}
+
+footer{
+  margin: 0, auto;
+  padding: 1px;
+  background-color:rgb(12, 120, 235);
+  text-align:center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+#logo-img{
+  height:35px;
+  width:35px;
+  background-color: rgb(12, 120, 235);
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+/* Style the navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.navbar #myLinks {
+  display: none;
+  text-align: right;
+  
+}
+
+/* Style navigation menu links */
+.navbar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.navbar a.icon {
+  background: rgb(143, 142, 142);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+
+/* Add a grey background color on mouse-over */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: rgb(53, 140, 234);
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  
+}
+.card-ab-box, .card-wk-box, .card-ct-box {
+  flex: 33%;
+}
+
+.card-ab-content, .card-wk-content, .card-ct-content {
+ flex: 66%;
+}
+.card-title {
+  border-right: 5px solid black;
+  text-align: right;
+  padding-right: 1vw;
+  max-height: 33%;
+}
+
+.card-body {
+  text-align: left;
+  padding-left: 1vw;
+  max-height: 33%;
+}
+
