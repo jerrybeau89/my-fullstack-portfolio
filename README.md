@@ -16,15 +16,17 @@ This is a repo that contains my portfolio of all my work. Ranging from HTML, CSS
 put website here
 
 ### Fullsized Screenshot Top and Bottom
+
 md
-    ![alt text](assets/images/Full-size-window.png)
-    ![alt text](assets/images/Full-size-window2.png)
+    ![alt text](develop/assets/images/Full-size-window.png)
+    ![alt text](develop/assets/images/Full-size-window2.png)
 
 
 ### Reduced Window Size Screenshot
+
 md
-    ![alt text](assets/images/reduced-size-window.png)
-    ![alt text](assets/images/reduced-size-window2.png)
+    ![alt text](develop/assets/images/reduced-size-window.png)
+    ![alt text](develop/assets/images/reduced-size-window2.png)
 
 
 ## Credits
