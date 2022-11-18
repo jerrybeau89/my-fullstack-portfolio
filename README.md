@@ -13,7 +13,7 @@ This is a repo that contains my portfolio of all my work. Ranging from HTML, CSS
 
 ## Usage
 
-put website here
+https://jerrybeau89.github.io/my-fullstack-portfolio/
 
 ### Fullsized Screenshot Top and Bottom
 
