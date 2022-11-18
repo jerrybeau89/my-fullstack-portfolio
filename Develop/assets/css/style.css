@@ -61,7 +61,7 @@ footer{
 
 .welcome-header{
   position: absolute;
-  top: 3%;
+  top: 17%;
   right: 3%;
   color: black;
   font-family: cursive;
@@ -69,12 +69,10 @@ footer{
 
 /* Style the navigation menu */
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   overflow: hidden;
   background-color: #333;
   position: fixed;
+  z-index: 2;
 }
 
 .page-title{
@@ -156,9 +154,12 @@ footer{
   flex-wrap: wrap;
   flex-direction: row;
   padding-left: 1vw;
-  justify-content: space-around;
+  
 }
 
+.card-wk-info img:hover {
+  background-color: rgb(0, 0, 0);
+}
 .card-ct-info{
   display: flex;
   flex-wrap: wrap;
@@ -193,11 +194,11 @@ a:active {
   margin: 5px;
 }
 
-.P2-img, .P3-img, .P4-img, .P5-img {
+.P2-img, .P3-img, .P4-img, .P5-img { 
   padding: 5px;
   margin: 5px;
-  max-height: 65%;
-  max-width: 65%;
+  max-height: 55%;
+  max-width: 55%;
 }
 
 @media screen and (max-width: 992px) {
