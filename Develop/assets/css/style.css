@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: rgb(112, 112, 112);
 }
 
 body {
@@ -8,8 +9,7 @@ body {
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 15px;
   line-height: 1;
-  color: var(--gin);
-  background-color: var(--outer-space);
+  
 }
 
 p{
@@ -23,6 +23,19 @@ header {
   margin: 0, auto;
   font-family: cursive;
 }
+
+.avatar{
+  height:4%;
+  width:4%;
+  border-radius: 60%;
+  background-color: rgb(12, 120, 235);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 main {
   margin: 10px;
 }
@@ -35,21 +48,41 @@ footer{
   width: 100%;
 }
 
-#logo-img{
-  height:35px;
-  width:35px;
-  background-color: rgb(12, 120, 235);
-  margin: 0px;
-  padding: 0px;
-  display: block;
-}
-/* Style the navigation menu */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
+.subheader{
   position: relative;
+  max-width: 100%;
+  height: auto;
 }
 
+.delicate-arch{
+  width: 100%;
+  height: auto;
+}
+
+.welcome-header{
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  color: black;
+  font-family: cursive;
+}
+
+/* Style the navigation menu */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+.page-title{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+}
 /* Hide the links inside the navigation menu (except for logo/home) */
 .navbar #myLinks {
   display: none;
@@ -67,8 +100,10 @@ footer{
 
 /* Style the hamburger menu */
 .navbar a.icon {
-  background: rgb(143, 142, 142);
-  display: block;
+  background: rgb(112, 112, 112);
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   position: absolute;
   right: 0;
   top: 7px;
@@ -76,13 +111,13 @@ footer{
 
 /* Add a grey background color on mouse-over */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: rgb(75, 75, 75);
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: rgb(53, 140, 234);
+  background-color: rgb(140, 76, 76);
   color: white;
 }
 
@@ -90,7 +125,6 @@ footer{
   display: flex;
   flex-wrap:wrap;
   flex-direction: row;
-  background-color: aqua;
   padding: 5px;
   margin: 5px;
 }
@@ -114,6 +148,7 @@ footer{
   flex-direction: row;
   text-align: left;
   padding-left: 1vw;
+  justify-content: space-around;
 }
 
 .card-wk-info {
@@ -121,28 +156,61 @@ footer{
   flex-wrap: wrap;
   flex-direction: row;
   padding-left: 1vw;
-}
-
-.card-wk-info div h3 p {
-
+  justify-content: space-around;
 }
 
 .card-ct-info{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  list-style: none;
   padding-left: 1vw;
+  justify-content: space-around;
 }
 
 .card-ct-info div {
-  border-bottom: 2px solid black;
+  border-radius: 30% 12%;
+  border: solid black;
   padding: 5px;
   margin: 5px;
-  justify-content: center;
 }
 
-#P1-img, #P2-img, #P3-img, #P4-img, #P5-img {
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+ color: red;
+ text-decoration: underline;
+}
+a:active {
+  color: green;
+  text-decoration: underline;
+}
+
+.P1-img {
   padding: 5px;
   margin: 5px;
+}
+
+.P2-img, .P3-img, .P4-img, .P5-img {
+  padding: 5px;
+  margin: 5px;
+  max-height: 65%;
+  max-width: 65%;
+}
+
+@media screen and (max-width: 992px) {
+  .card-wk-info {
+    width: 50%;
+  }
+ 
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+ @media screen and (max-width: 768px) {
+  .card-wk-info {
+    width: 100%;
+  }
+
 }
