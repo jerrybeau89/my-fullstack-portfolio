@@ -192,6 +192,8 @@ a:active {
 .P1-img {
   padding: 5px;
   margin: 5px;
+  height: 190px;
+  width: 250px;
 }
 
 .P2-img, .P3-img, .P4-img, .P5-img { 
