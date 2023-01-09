@@ -50,3 +50,9 @@
   max-width: 55%;
   border-radius: 12%;
 }
+
+.dropdown-menu {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: calc(100vh - 550px);
+}
