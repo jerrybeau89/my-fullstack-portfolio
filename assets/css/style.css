@@ -1,51 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(112, 112, 112);
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  font-size: 15px;
-  line-height: 1;
-  
-}
-
-p{
-  margin-bottom: 10px;
-}
-
-header {
-  background-color:rgb(12, 120, 235);
-  text-align:center;
-  padding: 1px;
-  margin: 0, auto;
-  font-family: cursive;
-}
-
 .avatar{
-  height:4%;
-  width:4%;
-  border-radius: 60%;
-  background-color: rgb(12, 120, 235);
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-main {
-  margin: 10px;
-}
-
-footer{
-  margin: 0, auto;
-  padding: 1px;
-  background-color:rgb(12, 120, 235);
-  text-align:center;
-  width: 100%;
+  height:5.5%;
+  width:5.5%;
+  border-radius: 50%;
 }
 
 .subheader{
@@ -59,161 +15,38 @@ footer{
   height: auto;
 }
 
+.delicate-arch-project{
+  width: 100%;
+  height: 100%;
+}
+
+.myPhoto{
+  /* position: absolute;
+  left: 5px; */
+  width: 150px;
+  height: 155px;
+  border-radius: 50%;
+}
+
 .welcome-header{
   position: absolute;
-  top: 17%;
+  top: 15%;
   right: 3%;
   color: black;
   font-family: cursive;
 }
-
-/* Style the navigation menu */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  z-index: 2;
-}
-
-.page-title{
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 80%;
-}
-/* Hide the links inside the navigation menu (except for logo/home) */
-.navbar #myLinks {
-  display: none;
-  text-align: right;
-}
-
-/* Style navigation menu links */
-.navbar a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.navbar a.icon {
-  background: rgb(112, 112, 112);
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  position: absolute;
-  right: 0;
-  top: 7px;
-}
-
-/* Add a grey background color on mouse-over */
-.navbar a:hover {
-  background-color: rgb(75, 75, 75);
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: rgb(140, 76, 76);
-  color: white;
-}
-
-.row {
-  display: flex;
-  flex-wrap:wrap;
-  flex-direction: row;
-  padding: 5px;
-  margin: 5px;
-}
-.card-ab-box, .card-wk-box, .card-ct-box {
-  flex: 33%;
-  border-right: 3px solid black;
-}
-
-.card-ab-content, .card-wk-content, .card-ct-content {
- flex: 66%;
-}
-
-.card-title {
-  text-align: right;
-  padding-right: 1vw;
-}
-
-.card-ab-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  text-align: left;
-  padding-left: 1vw;
-  justify-content: space-around;
-}
-
-.card-wk-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 1vw;
-  
-}
-
-.card-wk-info img:hover {
-  background-color: rgb(0, 0, 0);
-}
-.card-ct-info{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 1vw;
-  justify-content: space-around;
-}
-
-.card-ct-info div {
-  border-radius: 30% 12%;
-  border: solid black;
-  padding: 5px;
-  margin: 5px;
-}
-
-a:link {
-  color: blue;
-  text-decoration: none;
-}
-
-a:hover {
- color: red;
- text-decoration: underline;
-}
-a:active {
-  color: green;
-  text-decoration: underline;
-}
-
 .P1-img {
   padding: 5px;
   margin: 5px;
   height: 190px;
   width: 250px;
+  border-radius: 12%;
 }
 
-.P2-img, .P3-img, .P4-img, .P5-img { 
+.P2-img, .P3-img, .P4-img, .P5-img, .P6-img { 
   padding: 5px;
   margin: 5px;
   max-height: 55%;
   max-width: 55%;
-}
-
-@media screen and (max-width: 992px) {
-  .card-wk-info {
-    width: 50%;
-  }
- 
-}
-
-/* Cards are stacked on top of each other at 768px or smaller */
- @media screen and (max-width: 768px) {
-  .card-wk-info {
-    width: 100%;
-  }
-
+  border-radius: 12%;
 }
